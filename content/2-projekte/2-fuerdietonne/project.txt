@@ -1,0 +1,85 @@
+Title: Für die Tonne
+
+----
+
+Teilnehmer:
+
+- Anna Lykova
+- Annika Könemann
+- Fabian Wakenhut
+- Jan Ctvrtnicek
+- Lennart Möller
+- Michael Budde
+- Robin Siekendieck
+
+----
+
+Kurzbeschreibung: Tools/Tipps zur Müllentsorgung
+
+----
+
+Text:
+
+## Einleitung
+
+Worum geht es hier genau? Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+
+
+****
+
+
+## Rechercheprozess
+
+Welche Recherchemethoden haben wir wie und warum eingesetzt? Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+
+
+****
+
+
+## Die Personas
+
+### Persona [NAME einfügen]
+
+(image: persona.png class: persona)
+
+#### Kurzprofil
+
+- **it’s all about the balance**
+- 36, three kids, youngest is 2.5
+- Her husband works full time
+- Her 5 year old son has a learning disability
+
+#### User Needs – Bedürfnisse und Wünsche
+
+- needs an easy way to find a good nursery now that the one she used to use has closed
+- worried that she doesn’t spend enough time with her middle child who needs extra attention
+- money is quite tight and so she needs to keep a careful eye on spending
+- a holiday - it’s been 4 years since they went anywhere
+- her husband’s job is looking a bit unstable, she wants more certainty and security about the future
+
+#### Medienverhalten
+
+- regularly reads Bild online
+- often checks parenting forums for advice
+- she likes to share anything relevant she finds with her friends
+
+#### Zitat
+
+> It can be exhausting running after three of them. Sometimes you just wish for a bit of respite.
+
+
+****
+
+
+## Das Problem-Statement
+
+- **Wer ist unsere Zielgruppe:** eintragen
+- **Was ist ihr Problem:** eintragen
+- **Wann tritt das Problem auf:** eintragen
+- **Warum ist es wichtig, das Problem zu lösen:** eintragen
+
+
+****
+
+
+## Fotos

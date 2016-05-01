@@ -1,17 +1,17 @@
-Title: Kirby Starterkit
+Title: Design for Digital Media
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Moritz Guth
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: This is the documentation platform for the 2016 »Design for Digital Media« course at the University of Applied Sciences, Bielefeld.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Interaction Design
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: © 2016 (link: http://mguth.com text: Moritz Guth)
