@@ -9,31 +9,51 @@ Email:  support@getkirby.com
 */
 
 
-/* Source Sans Pro
+/* Rational
 -------------------------------------------------- */
+
+/* Webfont: Rational-Regular */
+
 @font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Rational';
+  src: url('../fonts/rational/30B4C1_2_0.woff2') format('woff2'),
+       url('../fonts/rational/30B4C1_2_0.woff') format('woff');
   font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/sourcesanspro-300.woff) format('woff');
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
 }
+
+/* Webfont: Rational-Italic */
+
 @font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url(../fonts/sourcesanspro-600.woff) format('woff');
-}
-@font-face {
-  font-family: 'Source Sans Pro';
+  font-family: 'Rational';
+  src: url('../fonts/rational/30B4C1_1_0.woff2') format('woff2'),
+       url('../fonts/rational/30B4C1_1_0.woff') format('woff');
   font-style: italic;
-  font-weight: 400;
-  src: url(../fonts/sourcesanspro-400-italic.woff) format('woff');
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Rational-SemiBold */
+
+@font-face {
+  font-family: 'Rational';
+  src: url('../fonts/rational/30B4C1_11_0.woff2') format('woff2'),
+       url('../fonts/rational/30B4C1_11_0.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Rational-SemiBoldItalic */
+
+@font-face {
+  font-family: 'Rational';
+  src: url('../fonts/rational/30B4C1_E_0.woff2') format('woff2'),
+       url('../fonts/rational/30B4C1_E_0.woff') format('woff');
+  font-style: italic;
+  font-weight: 700;
+  text-rendering: optimizeLegibility;
 }
 
 
@@ -86,17 +106,17 @@ a:hover {
 -------------------------------------------------- */
 html {
   height: 101%;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Rational", sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 body {
   margin: 0 auto;
-  font-size: 1.25em;
+  font-size: 1.1em;
   line-height: 1.5em;
-  padding: 1.5em;
+  padding: 1em;
   max-width: 50em;
-  background: #fff;
+  background: #fff5f0;
   color: #222;
 }
 
@@ -104,8 +124,8 @@ body {
 /* Header
 -------------------------------------------------- */
 .header {
-  border-bottom: 2px solid rgb(255, 104, 104);
-  margin-bottom: 1.5em;
+  border-bottom: 4px solid rgb(255, 104, 104);
+  margin-bottom: 3em;
 }
 .logo {
   display: block;
@@ -136,9 +156,13 @@ body {
   position: relative;
 }
 .menu > li > a {
-  padding: .35em 0;
-  border-top: 1px solid #ddd;
-  font-weight: 600;
+  padding: .66em .33em;
+  margin: 2px 0;
+  /* border-top: 1px solid rgba(171, 164, 161, 0.33); */
+  background: rgba(255, 255, 255, 0.75);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 .submenu {
@@ -155,40 +179,45 @@ body {
   left: 0;
   border-top: .5em solid transparent;
   border-bottom: .5em solid transparent;
-  border-left: .5em solid #222;
+  border-left: .5em solid rgb(255, 104, 104);
 }
 .submenu li {
-  border-bottom: 1px solid #444;
+  border-bottom: 2px solid #fff5f0;
 }
+.submenu li:last-child {
+  border-bottom: 0;
+}
+
 .submenu a {
   padding: .5em 1.5em;
   font-size: .9em;
-  font-weight: 300;
+  font-weight: 400;
   color: #fff;
-  background: #222;
+  background: rgb(255, 104, 104);
   white-space: nowrap;
 }
 .submenu a:hover {
-  background: #333;
+  background: rgb(235, 96, 97);
   color: #fff;
 }
 
 @media screen and (min-width: 40em) {
   body {
     padding: 3em;
+    font-size: 1.25em;
   }
   .logo {
     float: left;
   }
   .menu {
     float: right;
-    margin-right: -1em;
   }
   .menu > li {
     float: left;
   }
   .menu > li > a {
     padding: .35em 1em;
+    margin-left: .35em;
     border: 0;
   }
   .menu > li:hover .submenu {
@@ -202,25 +231,25 @@ body {
 h1 {
   font-size: 2em;
   line-height: 1.25em;
-  font-weight: 400;
+  font-weight: normal;
   margin-bottom: .5em;
 }
 h2 {
   font-size: 2em;
   line-height: 1.25em;
-  font-weight: 300;
+  font-weight: normal;
   margin-bottom: .5em;
   color: rgb(255, 104, 104);
 }
 h3 {
   font-size: 1.4em;
   line-height: 1.5em;
-  font-weight: 400;
+  font-weight: normal;
   margin-bottom: .5em;
 }
 h4 {
   font-size: 1.125em;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5em;
   margin-bottom: .5em;
   color: rgb(255, 104, 104);
@@ -241,13 +270,19 @@ h1 a, h2 a, h3 a, h4 a {
 .main hr {
   margin: 3em 0;
   height: 2px;
-  background: #ddd;
+  background: rgba(171, 164, 161, 0.33);
 }
 .main p,
 .main figure,
 .main ul,
 .main ol {
   margin-bottom: 1.5em;
+}
+.main p{
+  max-width: 38em;
+}
+.main blockquote{
+  max-width: 25em;
 }
 .main a {
   border-bottom: 2px solid #ddd;
@@ -260,6 +295,25 @@ h1 a, h2 a, h3 a, h4 a {
 .text ul,
 .text ol {
   margin-left: 1em;
+}
+
+.text ul li,
+.text ol li {
+  margin-bottom: 0.5em;
+  max-width: 38em;
+}
+
+.text ul {
+  list-style: none;
+}
+
+.text ul li {
+  padding-left: 0em;
+  text-indent: -1em;
+}
+
+.text ul li:before {
+  content:"– "
 }
 
 /* Block Quotes */
@@ -281,17 +335,39 @@ blockquote {
 /* Project meta
 -------------------------------------------------- */
 .meta {
-  margin-bottom: 1.5em;
+  margin: 2em 0 0;
+  font-style: italic;
+  overflow: hidden;
 }
+
+.meta__col {
+  margin-bottom: 1em;
+}
+
+@media screen and (min-width: 50em) {
+  .meta__col {
+    float: left;
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+
 .meta li {
-  float: left;
   list-style: none;
-  margin-right: 2em;
   color: rgb(255, 104, 104);
+  display: inline-block;
 }
+
+.meta li:after {
+    content: ", ";
+}
+.meta li:last-child:after {
+    content: "";
+}
+
 .meta li b {
-  font-weight: 400;
-  color: #000;
+  font-weight: normal;
+  color: #222;
   padding-right: .25em;
 }
 
@@ -300,20 +376,42 @@ blockquote {
 -------------------------------------------------- */
 .teaser {
   list-style: none;
+  font-size: 0.9em;
 }
 .teaser li {
   margin-bottom: 1.5em;
   list-style: none;
+  overflow: hidden;
 }
+.teaser img {
+  max-width: 100px;
+  float: left;
+  margin-right: 1em;
+}
+.teaser h3 {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 50em) {
+  .teaser {
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
   .teaser li {
     float: left;
-    width: 21%;
-    margin-left: 5%;
+    width: 22%;
+    margin-left: 4%;
   }
   .teaser li:first-child {
     margin-left: 0;
   }
+  .teaser img {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+  }
+
 }
 
 
@@ -337,15 +435,8 @@ blockquote {
 -------------------------------------------------- */
 .footer {
   padding: 1em 0 6em;
-  font-size: .8em;
+  font-style: italic;
 }
 .copyright {
   float: left;
-}
-.colophon {
-  float: right;
-}
-.colophon a b {
-  color: rgb(255, 104, 104);
-  padding-left: .25em;
 }

@@ -4,13 +4,13 @@
 
     <h1>Thema »<?php echo $page->title()->html() ?>«</h1>
 
-    <div class="meta cf">
-      <div>
+    <div class="meta">
+      <div class="meta__col">
+        <b>Das Thema in einem Satz:</b><br><?php echo $page->kurzbeschreibung() ?>
+      </div>
+      <div class="meta__col">
         <b>Teilnehmer:</b>
         <?php echo $page->teilnehmer()->kirbytext() ?>
-      </div>
-      <div>
-        <br><b>Das Thema in einem Satz:</b><br><?php echo $page->kurzbeschreibung() ?>
       </div>
     </div>
 
