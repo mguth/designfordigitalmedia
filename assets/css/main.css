@@ -235,20 +235,20 @@ h1 {
   margin-bottom: .5em;
 }
 h2 {
-  font-size: 2em;
-  line-height: 1.25em;
-  font-weight: normal;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  font-weight: 700;
   margin-bottom: .5em;
   color: rgb(255, 104, 104);
 }
 h3 {
-  font-size: 1.4em;
+  font-size: 1.3em;
   line-height: 1.5em;
   font-weight: normal;
   margin-bottom: .5em;
 }
 h4 {
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 700;
   line-height: 1.5em;
   margin-bottom: .5em;
@@ -278,10 +278,10 @@ h1 a, h2 a, h3 a, h4 a {
 .main ol {
   margin-bottom: 1.5em;
 }
-.main p{
+.main p {
   max-width: 38em;
 }
-.main blockquote{
+.main blockquote {
   max-width: 25em;
 }
 .main a {
@@ -331,6 +331,24 @@ blockquote {
   margin-top: 0.5em;
 }
 
+/* Tweets */
+.tweet {
+  padding: 4.5em 1em 1em;
+  margin-bottom: 2.5em;
+  margin-top: 1.5em;
+  background: rgba(255, 104, 104, .15) url('../images/twitter.svg') no-repeat 50% 2%;
+  font-style: italic;
+  text-align: center;
+}
+
+@media screen and (min-width: 50em) {
+  .tweet {
+    padding: 1em 1em 1em 5.5em;
+    background-position: 2% 50%;
+    text-align: left;
+  }
+}
+
 
 /* Project meta
 -------------------------------------------------- */
@@ -370,6 +388,22 @@ blockquote {
   color: #222;
   padding-right: .25em;
 }
+
+
+.blocklinks {
+  margin-bottom: 2.5em;
+}
+
+.blocklinks a {
+  display: inline-block;
+  background-color: rgba(255, 104, 104, .15);
+  padding: 0.5em;
+  margin: 0.25em 0;
+  line-height: 1;
+  border: 0;
+}
+
+
 
 
 /* Project teaser

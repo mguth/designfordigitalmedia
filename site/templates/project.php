@@ -2,7 +2,7 @@
 
   <main class="main" role="main">
 
-    <h1>Thema »<?php echo $page->title()->html() ?>«</h1>
+    <h1>Themenfeld »<?php echo $page->title()->html() ?>«</h1>
 
     <div class="meta">
       <div class="meta__col">
@@ -12,6 +12,13 @@
         <b>Teilnehmer:</b>
         <?php echo $page->teilnehmer()->kirbytext() ?>
       </div>
+    </div>
+
+    <div class="blocklinks">
+      <b>Projekte zum Thema:</b><br>
+      <?php foreach($page->children() as $app): ?>
+        <a href="<?php echo $app->url() ?>"><?php echo $app->title()->html() ?></a>
+      <?php endforeach ?>
     </div>
 
     <div class="text">
